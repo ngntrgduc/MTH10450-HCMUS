@@ -181,7 +181,7 @@ Trong thuật toán này, tại mỗi bước lặp $k$, chọn hướng giảm 
 
 = Cuối kì
 == Nêu định nghĩa tập affine, lồi, hàm lồi và các tính chất cơ bản (@affine)
-== Thuật toán gradient với thủ tục tìm chính xác theo tia và thuật toán gradient với thủ tục quay lui ( @gradient )
+== Thuật toán gradient với thủ tục tìm chính xác theo tia và thuật toán gradient với thủ tục quay lui (@gradient)
 == Phương pháp Newton cổ điển giải hệ phương trình phi tuyến
 === Trường hợp $n = 1$
 Xét phương trình 1 biến số $ f(x) = 0 $
@@ -212,7 +212,7 @@ Giả sử nghiệm của phương trình này là $x^* in RR$. Xuất phát t�
 
 Bước lặp:
 $ x^(k+1) = x^k - [D F(x^k)]^(-1)F(x^k) $
-Đặt $x^(k+1) = x^k$ và lặp lại quá trình tính toán đối với điểm $x^k$ mới
+Đặt $x^k = x^(k+1)$ và lặp lại quá trình tính toán đối với điểm $x^k$ mới
 
 - *Điểm xuất phát ban đầu $x^0$ phải gần phải đủ gần nghiệm $x^*$ của hệ*
 - *Ma trận Jacobi $ D F(x^k)$ không suy biến tại mọi bước lặp $k$*. Nếu không, thuật toán sẽ không thực hiện được
